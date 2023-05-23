@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookHiveDB.Domain\BookHiveDB.Domain.csproj" />
+    <ProjectReference Include="..\BookHiveDB.Repository\BookHiveDB.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
